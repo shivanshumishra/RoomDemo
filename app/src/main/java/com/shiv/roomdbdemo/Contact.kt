@@ -3,7 +3,7 @@ package com.shiv.roomdbdemo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity()
+@Entity
 data class Contact(
     val firstName: String,
     val lastName: String,
